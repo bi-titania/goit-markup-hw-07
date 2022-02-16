@@ -557,14 +557,18 @@ button {
   color: var(--accent-color);
 }
 
-.skills-list {
+.skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: left;
 }
 
-.skills-list h3 {
+.skills li:not(:last-child) {
+  margin-right: 35px;
+}
+
+.skills-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -573,15 +577,11 @@ button {
   margin-bottom: 10px;
 }
 
-.skills-list p {
+.skills-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-
-.skills-list li:not(:last-child) {
-  margin-right: 35px;
 }
 
 .skills-item::before {
@@ -595,19 +595,19 @@ button {
   background-position: center;
 }
 
-.skills-item.icon-1::before {
+.skills-item::before.icon-1::before {
   background-image: url(../img/1_antenna.svg);
 }
 
-.skills-item.icon-2::before {
+.skills-item::before.icon-2::before {
   background-image: url(../img/2_clock.svg);
 }
 
-.skills-item.icon-3::before {
+.skills-item::before.icon-3::before {
   background-image: url(../img/3_diagram.svg);
 }
 
-.skills-item.icon-4::before {
+.skills-item::before.icon-4::before {
   background-image: url(../img/4_astronaut.svg);
 }
 
@@ -634,16 +634,12 @@ button {
   margin-right: 30px;
 }
 
-.work-img {
-  display: block;
-}
-
-.work-list li:not(:last-child) {
-  margin-right: 30px;
-}
-
 .work-item {
   position: relative;
+}
+
+.work-img {
+  display: block;
 }
 
 .work-text {
