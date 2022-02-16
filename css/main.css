@@ -630,7 +630,11 @@ button {
   display: flex;
 }
 
-.work-list img {
+.work-list .work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-img {
   display: block;
 }
 
@@ -692,6 +696,13 @@ button {
   display: block;
 }
 
+.team-item {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
 .team-name {
   text-align: center;
   font-weight: 500;
@@ -701,20 +712,13 @@ button {
   margin-bottom: 10px;
 }
 
-.team-card p {
+.team-text {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-bottom: 15px;
-}
-
-.team-item {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 30px;
 }
 
 .client-list {
