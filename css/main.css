@@ -53,6 +53,17 @@ button {
   color: var(--accent-color);
 }
 
+.btn {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: var(--accent-color);
+}
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -344,13 +355,6 @@ button {
   width: 200px;
   height: 50px;
   margin-top: 30px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  border-radius: 4px;
-  border: var(--accent-color);
   color: var(--title-color);
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -510,18 +514,10 @@ button {
           box-sizing: content-box;
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: var(--accent-color);
   color: var(--title-color);
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
   text-align: center;
-  letter-spacing: 0.06em;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -771,9 +767,7 @@ button {
 }
 
 .projects-btn {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
@@ -783,7 +777,6 @@ button {
           box-sizing: content-box;
   height: 40px;
   background-color: var(--item-color);
-  border-radius: 4px;
   border: var(--item-color);
   -webkit-transition-property: background-color, color, -webkit-filter;
   transition-property: background-color, color, -webkit-filter;
@@ -1013,16 +1006,8 @@ button {
   width: 200px;
   height: 50px;
   margin-left: 12px;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: var(--accent-color);
   color: var(--title-color);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
