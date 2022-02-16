@@ -500,14 +500,13 @@ button {
 
 .hero {
   display: block;
-  position: relative;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #c4c4c4;
 }
 
-.bg-hero {
+.hero-background {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/bg_img.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/bg_img.jpg);
   background-repeat: no-repeat;
@@ -519,7 +518,6 @@ button {
   margin-right: auto;
   margin-bottom: 30px;
   width: 696px;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -528,7 +526,7 @@ button {
   color: var(--title-color);
 }
 
-.hero button {
+.hero-btn {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   width: 200px;
@@ -551,8 +549,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero button:hover,
-.hero button:focus {
+.hero-btn:hover, .hero-btn:focus {
   background-color: var(--title-color);
   color: var(--accent-color);
 }
@@ -595,19 +592,19 @@ button {
   background-position: center;
 }
 
-.skills-item::before.icon-1::before {
+.icon-1::before {
   background-image: url(../img/1_antenna.svg);
 }
 
-.skills-item::before.icon-2::before {
+.icon-2::before {
   background-image: url(../img/2_clock.svg);
 }
 
-.skills-item::before.icon-3::before {
+.icon-3::before {
   background-image: url(../img/3_diagram.svg);
 }
 
-.skills-item::before.icon-4::before {
+.icon-4::before {
   background-image: url(../img/4_astronaut.svg);
 }
 
