@@ -11,15 +11,15 @@
 }
 .work-list {
   display: flex;
-}
-.work-list img {
-  display: block;
-}
-.work-list li:not(:last-child) {
-  margin-right: 30px;
+  & .work-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .work-item {
   position: relative;
+}
+.work-img {
+  display: block;
 }
 .work-text {
   position: absolute;
