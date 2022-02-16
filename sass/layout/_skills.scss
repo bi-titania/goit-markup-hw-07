@@ -1,8 +1,11 @@
-.skills-list {
+.skills {
   display: flex;
   text-align: left;
+  & li:not(:last-child) {
+    margin-right: 35px;
+  }
 }
-.skills-list h3 {
+.skills-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -10,14 +13,11 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.skills-list p {
+.skills-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
-.skills-list li:not(:last-child) {
-  margin-right: 35px;
 }
 .skills-item::before {
   content: '';
@@ -29,16 +29,16 @@
   background-repeat: no-repeat;
   background-color: var(--item-color);
   background-position: center;
-}
-.skills-item.icon-1::before {
-  background-image: url(../img/1_antenna.svg);
-}
-.skills-item.icon-2::before {
-  background-image: url(../img/2_clock.svg);
-}
-.skills-item.icon-3::before {
-  background-image: url(../img/3_diagram.svg);
-}
-.skills-item.icon-4::before {
-  background-image: url(../img/4_astronaut.svg);
+  &.icon-1::before {
+    background-image: url(../img/1_antenna.svg);
+  }
+  &.icon-2::before {
+    background-image: url(../img/2_clock.svg);
+  }
+  &.icon-3::before {
+    background-image: url(../img/3_diagram.svg);
+  }
+  &.icon-4::before {
+    background-image: url(../img/4_astronaut.svg);
+  }
 }
