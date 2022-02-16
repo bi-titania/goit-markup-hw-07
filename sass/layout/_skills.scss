@@ -29,16 +29,16 @@
   background-repeat: no-repeat;
   background-color: var(--item-color);
   background-position: center;
-  &.icon-1::before {
-    background-image: url(../img/1_antenna.svg);
-  }
-  &.icon-2::before {
-    background-image: url(../img/2_clock.svg);
-  }
-  &.icon-3::before {
-    background-image: url(../img/3_diagram.svg);
-  }
-  &.icon-4::before {
-    background-image: url(../img/4_astronaut.svg);
-  }
+}
+.icon-1::before {
+  background-image: url(../img/1_antenna.svg);
+}
+.icon-2::before {
+  background-image: url(../img/2_clock.svg);
+}
+.icon-3::before {
+  background-image: url(../img/3_diagram.svg);
+}
+.icon-4::before {
+  background-image: url(../img/4_astronaut.svg);
 }
