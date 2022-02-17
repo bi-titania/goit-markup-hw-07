@@ -394,7 +394,7 @@ button {
   z-index: 3;
 }
 
-.site-header .site-logo {
+.site-logo {
   color: var(--main-color);
   margin-right: 95px;
 }
