@@ -29,7 +29,7 @@
   transform: translate(-50%, -50%);
   background-color: var(--title-color);
 }
-.btn-close {
+.modal__btn-close {
   position: absolute;
   right: 0;
   top: 0;
@@ -50,14 +50,14 @@
     outline: none;
   }
 }
-.btn-close-icon {
+.modal__icon-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .btn-close:hover &,
-  .btn-close:focus & {
+  .modal__btn-close:hover &,
+  .modal__btn-close:focus & {
     fill: var(--accent-color);
   }
 }
-.modal-title {
+.modal__title {
   text-align: center;
   margin-bottom: 15px;
   text-align: center;
@@ -66,7 +66,7 @@
   line-height: calc(23 / 20);
   letter-spacing: 0.03em;
 }
-.modal-label {
+.modal__label {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@
     letter-spacing: 0.01em;
   }
 }
-.modal-input {
+.modal__input {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -96,17 +96,17 @@
     outline: none;
   }
 }
-.modal-icon {
+.modal__icon {
   position: absolute;
   top: 55%;
   left: 15px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .modal-input:hover + &,
-  .modal-input:focus + & {
+  .modal__input:hover + &,
+  .modal__input:focus + & {
     fill: var(--accent-color);
   }
 }
-.modal-comment {
+.modal__comment {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -123,13 +123,13 @@
     outline: none;
   }
 }
-.modal-check {
+.modal__check {
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
 }
-.modal-checkbox {
+.modal__checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,29 +140,29 @@
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .checkbox-hidden:checked ~ & {
+  .modal__checkbox--hidden:checked ~ & {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
   }
 }
-.modal-text {
+.modal__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.modal-link {
+.modal__link {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--accent-color);
 }
-.modal-button {
+.modal__button {
   display: flex;
   justify-content: center;
 }
-.modal-btn {
+.modal__btn {
   width: 200px;
   height: 50px;
   margin-top: 30px;

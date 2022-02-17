@@ -1,11 +1,11 @@
 .clients {
   display: flex;
   justify-content: center;
-  & .clients-item + .clients-item {
+  & .clients__item + .clients__item {
     margin-left: 30px;
   }
 }
-.clients-title {
+.clients__title {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
@@ -14,7 +14,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,10 +30,10 @@
     border-color: var(--accent-color);
   }
 }
-.clients-icon {
+.clients__icon {
   fill: var(--icon-color);
-  .clients-link:hover &,
-  .clients-link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: var(--accent-color);
   }
 }

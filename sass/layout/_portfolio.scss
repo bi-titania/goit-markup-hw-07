@@ -1,7 +1,7 @@
 .projects {
   align-items: center;
 }
-.projects-filter {
+.projects__filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -9,7 +9,7 @@
     margin-left: 10px;
   }
 }
-.projects-btn {
+.projects__btn {
   font-weight: 500;
   line-height: 1.6;
   text-align: center;
@@ -30,12 +30,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 }
-.projects-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.projects-item {
+.projects__item {
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
@@ -57,14 +57,14 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
-.projects-subject {
+.projects__subject {
   position: relative;
   overflow: hidden;
 }
-.projects-img {
+.projects__img {
   display: block;
 }
-.projects-desc {
+.projects__desc {
   position: absolute;
   top: 0;
   left: 0;
@@ -79,17 +79,17 @@
 
   transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .projects-item:hover & {
+  .projects__item:hover & {
     transform: translateY(0%);
   }
 }
-.projects-text {
+.projects__text {
   padding: 20px 0 20px 25px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.projects-title {
+.projects__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -97,7 +97,7 @@
   text-align: left;
   color: var(--main-color);
 }
-.projects-subtitle {
+.projects__subtitle {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
