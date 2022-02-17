@@ -1,17 +1,17 @@
-.social-list {
+.socials {
   display: flex;
   & li + li {
     margin-left: 10px;
   }
 }
-.social-icon {
+.socials__icon {
   fill: var(--icon-color);
-  .social-link:hover &,
-  .social-link:focus & {
+  .socials__link:hover &,
+  .socials__link:focus & {
     fill: var(--title-color);
   }
 }
-.social-link {
+.socials__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;

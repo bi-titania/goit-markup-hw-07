@@ -1,7 +1,7 @@
 .work {
   padding-top: 0;
 }
-.work-title {
+.work__title {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
@@ -9,19 +9,19 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.work-list {
+.work__list {
   display: flex;
-  & .work-item:not(:last-child) {
+  & .work__item:not(:last-child) {
     margin-right: 30px;
   }
 }
-.work-item {
+.work__item {
   position: relative;
 }
-.work-img {
+.work__img {
   display: block;
 }
-.work-text {
+.work__text {
   position: absolute;
   bottom: 0;
   padding: 27px 82px;

@@ -1,11 +1,11 @@
 .skills {
   display: flex;
   text-align: left;
-  & .skills-item:not(:last-child) {
+  & .skills__item:not(:last-child) {
     margin-right: 35px;
   }
 }
-.skills-title {
+.skills__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -13,32 +13,31 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.skills-text {
+.skills__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.skills-item::before {
+.skills__item::before {
   content: '';
   display: block;
   margin-bottom: 30px;
   height: 120px;
   border-radius: 4px;
-
   background-repeat: no-repeat;
   background-color: var(--item-color);
   background-position: center;
 }
-.icon-1::before {
+.skills__icon-1::before {
   background-image: url(../img/1_antenna.svg);
 }
-.icon-2::before {
+.skills__icon-2::before {
   background-image: url(../img/2_clock.svg);
 }
-.icon-3::before {
+.skills__icon-3::before {
   background-image: url(../img/3_diagram.svg);
 }
-.icon-4::before {
+.skills__icon-4::before {
   background-image: url(../img/4_astronaut.svg);
 }
