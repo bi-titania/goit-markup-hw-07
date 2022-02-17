@@ -74,16 +74,16 @@ button {
   margin-left: 10px;
 }
 
-.socials-icon {
+.socials__icon {
   fill: var(--icon-color);
 }
 
-.socials-link:hover .socials-icon,
-.socials-link:focus .socials-icon {
+.socials__link:hover .socials__icon,
+.socials__link:focus .socials__icon {
   fill: var(--title-color);
 }
 
-.socials-link {
+.socials__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -101,7 +101,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-link:hover, .socials-link:focus {
+.socials__link:hover, .socials__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -963,7 +963,7 @@ button {
   margin-bottom: 20px;
 }
 
-.join-icon {
+.socials__icon--color {
   fill: var(--title-color);
 }
 
