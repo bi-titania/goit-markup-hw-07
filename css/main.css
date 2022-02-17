@@ -920,8 +920,7 @@ button {
   margin-top: 15px;
 }
 
-.footer-contacts__item:hover,
-.footer-contacts__item:focus {
+.footer-contacts__item:hover, .footer-contacts__item:focus {
   color: var(--accent-color);
 }
 
@@ -929,8 +928,7 @@ button {
   margin-top: 5px;
 }
 
-.footer-contacts__address,
-.footer-contacts__ref {
+.footer-contacts__address, .footer-contacts__ref {
   font-size: 14px;
   line-height: 2.1;
   letter-spacing: 0.03em;
