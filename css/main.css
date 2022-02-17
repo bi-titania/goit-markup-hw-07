@@ -536,7 +536,7 @@ button {
   text-align: left;
 }
 
-.skills li:not(:last-child) {
+.skills .skills-item:not(:last-child) {
   margin-right: 35px;
 }
 
@@ -998,7 +998,6 @@ button {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  outline: none;
   color: var(--icon-color);
 }
 

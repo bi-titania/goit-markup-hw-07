@@ -1,7 +1,7 @@
 .skills {
   display: flex;
   text-align: left;
-  & li:not(:last-child) {
+  & .skills-item:not(:last-child) {
     margin-right: 35px;
   }
 }
