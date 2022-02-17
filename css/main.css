@@ -746,7 +746,7 @@ button {
   fill: var(--accent-color);
 }
 
-.projects {
+.gallery {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -795,7 +795,7 @@ button {
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.projects__list {
+.projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
