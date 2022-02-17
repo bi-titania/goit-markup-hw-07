@@ -916,6 +916,10 @@ button {
           align-items: baseline;
 }
 
+.footer__logo {
+  color: var(--title-color);
+}
+
 .footer-contacts {
   margin-top: 15px;
 }

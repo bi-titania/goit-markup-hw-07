@@ -8,6 +8,9 @@
     display: flex;
     align-items: baseline;
   }
+  &__logo {
+    color: var(--title-color);
+  }
 }
 .footer-contacts {
   margin-top: 15px;
