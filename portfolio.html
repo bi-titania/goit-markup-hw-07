@@ -38,14 +38,14 @@
         <ul class="contacts">
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link"
-              ><svg class="contacts__icon" width="16" height="12">
+              ><svg class="contacts__icon" >
                 <use href="./img/sprite.svg#mail"></use></svg
               >info@devstudio.com
             </a>
           </li>
           <li class="contacts__item">
             <a href="tel:+380961111111" class="contacts__link"
-              ><svg class="contacts__icon" width="10" height="16">
+              ><svg class="contacts__icon">
                 <use href="./img/sprite.svg#phone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -218,7 +218,8 @@
     <!---------- Подвал страницы ---------->
     <footer class="footer">
       <div class="container footer__wrap">
-        <aside>
+        <div class="footer__aside-wrap"> 
+          <aside class="footer__aside">
           <a href="index.html" class="site-logo footer__logo"><span class="site-logo--item">Web</span>Studio</a>
           <!---------- Контакты и адресс ---------->
           <address id="contact">
@@ -241,7 +242,7 @@
             </ul>
           </address>
         </aside>
-        <aside class="footer-join">
+        <aside class="footer-join footer__aside">
           <p class="footer-join__text">Присоединяйтесь</p>
           <ul class="socials">
             <li>
@@ -274,7 +275,8 @@
             </li>
           </ul>
         </aside>
-        <aside class="footer-subscribe">
+        </div>
+        <aside class="footer-subscribe footer__aside">
           <p class="footer-subscribe__text">Подпишитесь на рассылку</p>
           <form class="footer-subscribe__form">
             <label>
