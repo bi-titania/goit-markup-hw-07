@@ -10,8 +10,8 @@
   }
   &__list {
     display: flex;
-    & .work__item:not(:last-child) {
-      margin-right: 30px;
+    & .work__item + .work__item {
+      margin-left: 30px;
     }
   }
   &__item {
