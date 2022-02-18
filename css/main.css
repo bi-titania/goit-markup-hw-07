@@ -259,7 +259,7 @@ button {
 }
 
 .modal__input {
-  width: 448px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -291,7 +291,7 @@ button {
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  width: 448px;
+  width: 100%;
   height: 120px;
   margin-top: 5px;
   padding-left: 15px;
