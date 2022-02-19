@@ -73,8 +73,8 @@
   //     fill: var(--accent-color);
   //   }
 }
-.mob-menu__btn-close:hover + .mob-menu__icon-close,
-.mob-menu__btn-close:focus + .mob-menu__icon-close {
+.mob-menu__icon-close:hover,
+.mob-menu__icon-close:focus {
   fill: var(--accent-color);
 }
 .menu-nav {
