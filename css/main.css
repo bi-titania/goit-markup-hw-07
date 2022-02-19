@@ -428,8 +428,8 @@ button {
   position: absolute;
   right: 0;
   top: 55%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-22px, -50%);
+          transform: translate(-22px, -50%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
