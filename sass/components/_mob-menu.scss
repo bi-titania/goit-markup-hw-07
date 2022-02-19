@@ -73,8 +73,8 @@
   //     fill: var(--accent-color);
   //   }
 }
-.mob-menu__btn-close:hover .mob-menu__icon-close,
-.mob-menu__btn-close:focus .mob-menu__icon-close {
+.mob-menu__btn-close:hover + .mob-menu__icon-close,
+.mob-menu__btn-close:focus + .mob-menu__icon-close {
   fill: var(--accent-color);
 }
 .menu-nav {
@@ -88,10 +88,10 @@
   letter-spacing: 0.02em;
   padding-bottom: 32px;
 }
-.menu-nav__link:hover,
-.menu-nav__link:focus {
-  color: var(--accent-color);
-}
+// .menu-nav__link:hover,
+// .menu-nav__link:focus {
+//   color: var(--accent-color);
+// }
 .menu-nav__link.current {
   color: var(--accent-color);
 }

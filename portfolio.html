@@ -300,6 +300,41 @@
         </aside>
       </div>
     </footer>
+     <!----------------- Мобильное меню ------------------->
+    <div class="mob-menu is-hidden" data-menu>
+      <div class="mob-menu__content">
+        <button class="mob-menu__btn-close" data-menu-close>
+          <svg class="mob-menu__icon-close" width="19" height="19">
+            <use href="./img/sprite.svg#close-btn"></use>
+          </svg>
+        </button>
+        <ul class="menu-nav">
+          <li class="menu-nav__item">
+            <a href="index.html" class="menu-nav__link">Студия</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="portfolio.html" class="menu-nav__link current">Портфолио</a>
+          </li>
+          <li class="menu-nav__item"><a href="#contacts" class="menu-nav__link">Контакты</a></li>
+        </ul>
+        <ul class="menu-contacts" id="contacts">
+          <li class="menu-contacts__item">
+            <a href="tel:+380991111111" class="menu-contacts__tel">+38 099 111 11 11</a>
+          </li>
+          <li class="menu-contacts__item">
+            <a href="mailto:info@example.com" class="menu-contacts__mail">info@example.com</a>
+          </li>
+        </ul>
+        <ul class="menu-socials">
+          <li class="menu-socials__item"><a href="" class="menu-socials__link">Instagram</a></li>
+          <li class="menu-socials__item"><a href="" class="menu-socials__link">Twitter</a></li>
+          <li class="menu-socials__item"><a href="" class="menu-socials__link">Facebook</a></li>
+          <li class="menu-socials__item">
+            <a href="" class="menu-socials__link last">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="./js/menu.js"></script>
   </body>
 </html>
