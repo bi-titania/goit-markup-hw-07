@@ -28,7 +28,7 @@
   height: 100%;
   z-index: 10;
   opacity: 1;
-  //   overflow-y: scroll;
+  overflow-y: scroll;
   transition: opacity 200ms linear, visibility 200ms linear;
   background-color: var(--title-color);
   &.is-hidden {
