@@ -211,6 +211,7 @@ button {
   .modal__btn-close {
     right: 8px;
     top: 8px;
+    padding: 9px;
   }
 }
 
