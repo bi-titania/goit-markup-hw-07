@@ -36,9 +36,9 @@
 }
 .modal__btn-close {
   position: absolute;
-  right: 8px;
-  top: 8px;
-  // display: inline-flex;
+  right: 20px;
+  top: 15px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   // margin-top: 8px;
@@ -49,6 +49,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--title-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1200px) {
+    right: 8px;
+    top: 8px;
+  }
   // &:hover,
   // &:focus {
   //   border-color: var(--accent-color);
