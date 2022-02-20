@@ -68,15 +68,15 @@
   border: none;
   outline: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  //   &:hover .mob-menu__icon-close,
-  //   &:focus .mob-menu__icon-close {
-  //     fill: var(--accent-color);
-  //   }
+  &:hover .mob-menu__icon-close,
+  &:focus .mob-menu__icon-close {
+    fill: var(--accent-color);
+  }
 }
-.mob-menu__icon-close:hover,
-.mob-menu__icon-close:focus {
-  fill: var(--accent-color);
-}
+// .mob-menu__icon-close:hover,
+// .mob-menu__icon-close:focus {
+//   fill: var(--accent-color);
+// }
 .menu-nav {
   text-align: left;
   padding-bottom: 270px;
