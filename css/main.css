@@ -215,6 +215,7 @@ button {
 }
 
 .modal__icon-close {
+  position: absolute;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
